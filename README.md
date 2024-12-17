@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         weSign = findViewById(R.id.weSign)
         playerView = PlayerView(this)
         player = ExoPlayer.Builder(this).build()
-        val mediaItem = MediaItem.fromUri(Uri.fromFile(YOUR-VİDEO-FİLE))
+        val mediaItem = MediaItem.fromUri(Uri.fromFile(YOUR-VIDEO-FILE))
         player.setMediaItem(mediaItem)
         playerView.player = player
         weSign.setPlayer(playerView)
